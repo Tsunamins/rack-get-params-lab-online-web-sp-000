@@ -15,7 +15,7 @@ class Application
         @@cart.each do |cart_item|
           if cart_item != nil 
             resp.write "#{cart_item}\n"
-          elsif cart_item == nil 
+          elsif cart_item == "" 
             resp.write "Your cart is empty"
           end
           end
