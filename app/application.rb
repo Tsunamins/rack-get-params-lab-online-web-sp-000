@@ -15,7 +15,7 @@ class Application
           if cart_item != nil 
           resp.write "#{cart_item}\n"
         else 
-          resp.write "The cart is empty."
+          resp.write "Your cart is empty."
         end
         end
     elsif req.pat.match(/add/)
