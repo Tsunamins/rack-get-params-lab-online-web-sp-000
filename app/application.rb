@@ -16,7 +16,7 @@ class Application
           if cart_item != nil 
             resp.write "#{cart_item}\n"
           else 
-            resp.write "Your cart is empty."
+            resp.write "Your cart is empty"
           end
           end
         
