@@ -19,6 +19,8 @@ class Application
         end
         end
     elsif req.path.match(/add/)
+      @@items.each do |item_in_list|
+        if item_in_list ==
       
     elsif req.path.match(/search/)
       search_term = req.params["q"]
