@@ -17,6 +17,7 @@ class Application
         else 
           resp.write "The cart is empty."
         end
+        end
     elsif req.pat.match(/add/)
       
     elsif req.path.match(/search/)
